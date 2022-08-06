@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\SiteDeploys\myfundi2deploy</_PublishTargetUrl>
+    <History>True|2022-08-06T02:54:04.4130049Z;True|2022-08-06T03:52:27.7207580+01:00;True|2022-08-06T03:46:15.8526502+01:00;True|2022-08-06T03:13:15.8753144+01:00;True|2022-08-06T02:28:53.0776907+01:00;False|2022-08-06T02:20:40.8998458+01:00;False|2022-08-06T01:39:00.4629207+01:00;False|2022-08-06T01:35:35.8852170+01:00;</History>
+  </PropertyGroup>
+</Project>
