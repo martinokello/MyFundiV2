@@ -1,7 +1,8 @@
 using MyFundi.Web.ViewModels;
 using AutoMapper;
 using BLG.Business.Concretes;
-using AesCryptoSystemExtra.AESCryptoSystem.ExternalCryptoUnit;
+//using AesCryptoSystemExtra.AESCryptoSystem.ExternalCryptoUnit;
+using EpsilonCryptoSystemEngine;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
@@ -253,7 +254,7 @@ namespace MyFundi.Web
                 conf.CreateMap<MonthlySubscriptionViewModel, MonthlySubscription>().ReverseMap(); 
 
             });
-            var connectionString = Configuration.GetConnectionString("MyFundiConnection");
+            var connectionString = Configuration.GetSection("ConnectionStrings")["MyFundiConnection"];
 
             services.AddDbContext<MyFundiDBContext>(options =>
             {
@@ -270,6 +271,7 @@ namespace MyFundi.Web
             services.AddScoped<PayPalHandler>(pHandle => new PayPalHandler(paypalSettings.GetSection("PaypalBaseUrl").Value,
               paypalSettings.GetSection("BusinessEmail").Value, paypalSettings.GetSection("SuccessUrl").Value, paypalSettings.GetSection("CancelUrl").Value,
               paypalSettings.GetSection("NotifyUrl").Value, ""));
+
             services.AddScoped<Mapper>(map => new Mapper(mapperConfiguration));
             services.AddScoped<MyFundiUnitOfWork>();
             services.AddScoped<ServicesEndPoint, ServicesEndPoint>();
@@ -294,13 +296,14 @@ namespace MyFundi.Web
             services.AddScoped<AbstractRepository<ClientProfile>, ClientProfileRepository>();
             services.AddScoped<AbstractRepository<Job>, JobRepository>();
             services.AddScoped<AbstractRepository<JobWorkCategory>, JobWorkCategoryRepository>();
-            services.AddScoped<AbstractRepository<MonthlySubscription>, MonthlySubscriptionRepository>(); 
+            services.AddScoped<AbstractRepository<MonthlySubscription>, MonthlySubscriptionRepository>();
+            services.AddSingleton<PasswordEncryptor>(enc => new PasswordEncryptor(masterkeyDirPath, masterkeyDirPath));
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IRoleService, RoleService>();
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddScoped<AppSettingsConfigurations>();
             services.AddScoped<InitializeDatabaseRoles>();
-            services.AddTransient<AesExternalProcedures>(s => new AesExternalProcedures(masterkeyDirPath));
+            //services.AddTransient<AesExternalProcedures>(s => new AesExternalProcedures(masterkeyDirPath));
             services.AddScoped<IMailService, EmailService>(smtp => new EmailService(new AppSettingsConfigurations(Configuration)));
             services.AddScoped<PaymentsManager>();
 
@@ -360,7 +363,7 @@ namespace MyFundi.Web
             app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(), @"MyFundiProfile")),
+                    Path.Combine(Directory.GetCurrentDirectory(), "MyFundiProfile")),
                 RequestPath = new PathString("/MyFundiProfile")
             });
             if (!env.IsDevelopment())

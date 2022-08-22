@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\HandyManV2\\ServiceEndPoint\\ServiceEndPoint.csproj": {}
+    "C:\\Development\\MyFundiV2\\ServiceEndPoint\\ServiceEndPoint.csproj": {}
   },
   "projects": {
-    "C:\\Development\\HandyManV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj": {
+    "C:\\Development\\MyFundiV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj",
         "projectName": "MyFundi.AppConfigurations",
-        "projectPath": "C:\\Development\\HandyManV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\MyFundi.AppConfigurations\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\MyFundi.AppConfigurations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -28,7 +26,6 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -97,27 +94,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     },
-    "C:\\Development\\HandyManV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj": {
+    "C:\\Development\\MyFundiV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj",
         "projectName": "MyFundi.DataAccess",
-        "projectPath": "C:\\Development\\HandyManV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\MyFundi.DataAccess\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\MyFundi.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -125,15 +125,14 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
-                "projectPath": "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj"
+              "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
+                "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj"
               }
             }
           }
@@ -168,27 +167,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     },
-    "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
+    "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
         "projectName": "MyFundi.Domain",
-        "projectPath": "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\MyFundi.Domain\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -196,7 +198,6 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -235,27 +236,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     },
-    "C:\\Development\\HandyManV2\\MyFundi.Services\\MyFundi.Services.csproj": {
+    "C:\\Development\\MyFundiV2\\MyFundi.Services\\MyFundi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\MyFundi.Services\\MyFundi.Services.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\MyFundi.Services\\MyFundi.Services.csproj",
         "projectName": "MyFundi.Services",
-        "projectPath": "C:\\Development\\HandyManV2\\MyFundi.Services\\MyFundi.Services.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\MyFundi.Services\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.Services\\MyFundi.Services.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\MyFundi.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -263,21 +267,20 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Development\\HandyManV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj": {
-                "projectPath": "C:\\Development\\HandyManV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj"
+              "C:\\Development\\MyFundiV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj": {
+                "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.AppConfigurations\\MyFundi.AppConfigurations.csproj"
               },
-              "C:\\Development\\HandyManV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj": {
-                "projectPath": "C:\\Development\\HandyManV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj"
+              "C:\\Development\\MyFundiV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj": {
+                "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.DataAccess\\MyFundi.DataAccess.csproj"
               },
-              "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
-                "projectPath": "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj"
+              "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
+                "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj"
               }
             }
           }
@@ -306,27 +309,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     },
-    "C:\\Development\\HandyManV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj": {
+    "C:\\Development\\MyFundiV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj",
         "projectName": "MyFundi.UnitOfWork",
-        "projectPath": "C:\\Development\\HandyManV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\MyFundi.UnitOfWork\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\MyFundi.UnitOfWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -334,15 +340,14 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Development\\HandyManV2\\MyFundi.Services\\MyFundi.Services.csproj": {
-                "projectPath": "C:\\Development\\HandyManV2\\MyFundi.Services\\MyFundi.Services.csproj"
+              "C:\\Development\\MyFundiV2\\MyFundi.Services\\MyFundi.Services.csproj": {
+                "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.Services\\MyFundi.Services.csproj"
               }
             }
           }
@@ -399,27 +404,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     },
-    "C:\\Development\\HandyManV2\\ServiceEndPoint\\ServiceEndPoint.csproj": {
+    "C:\\Development\\MyFundiV2\\ServiceEndPoint\\ServiceEndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\ServiceEndPoint\\ServiceEndPoint.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\ServiceEndPoint\\ServiceEndPoint.csproj",
         "projectName": "ServiceEndPoint",
-        "projectPath": "C:\\Development\\HandyManV2\\ServiceEndPoint\\ServiceEndPoint.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\ServiceEndPoint\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\ServiceEndPoint\\ServiceEndPoint.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\ServiceEndPoint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -427,15 +435,14 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Development\\HandyManV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj": {
-                "projectPath": "C:\\Development\\HandyManV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj"
+              "C:\\Development\\MyFundiV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj": {
+                "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.UnitOfWork\\MyFundi.UnitOfWork.csproj"
               }
             }
           }
@@ -464,7 +471,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

@@ -55,7 +55,8 @@
           "SimbaToursEastAfrica.Caching": "1.0.0",
           "SimbaToursEastAfrica.SocialMedia": "1.0.0",
           "Twitter": "1.0.0",
-          "AesCryptoSystemExtra": "1.0.0.0",
+          "EpsilonCryptoSystemEngine": "1.0.0.0",
+          "PasswordEncryptorEngine": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1428,7 +1429,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -2265,15 +2270,26 @@
           "Twitter.dll": {}
         }
       },
-      "AesCryptoSystemExtra/1.0.0.0": {
+      "EpsilonCryptoSystemEngine/1.0.0.0": {
         "runtime": {
-          "AesCryptoSystemExtra.dll": {
+          "EpsilonCryptoSystemEngine.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
         "compile": {
-          "AesCryptoSystemExtra.dll": {}
+          "EpsilonCryptoSystemEngine.dll": {}
+        }
+      },
+      "PasswordEncryptorEngine/1.0.0.0": {
+        "runtime": {
+          "PasswordEncryptorEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "PasswordEncryptorEngine.dll": {}
         }
       },
       "EPPlus/3.1.2.0": {
@@ -4881,7 +4897,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AesCryptoSystemExtra/1.0.0.0": {
+    "EpsilonCryptoSystemEngine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PasswordEncryptorEngine/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

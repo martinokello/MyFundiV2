@@ -55,3 +55,15 @@ C:\Development\HandyManV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalcu
 C:\Development\HandyManV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.csproj.CopyComplete
 C:\Development\HandyManV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.dll
 C:\Development\HandyManV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.pdb
+C:\Development\MyFundiV2\PaymentCalculater\bin\Debug\netcoreapp3.1\PaymentCalculater.deps.json
+C:\Development\MyFundiV2\PaymentCalculater\bin\Debug\netcoreapp3.1\PaymentCalculater.dll
+C:\Development\MyFundiV2\PaymentCalculater\bin\Debug\netcoreapp3.1\PaymentCalculater.pdb
+C:\Development\MyFundiV2\PaymentCalculater\bin\Debug\netcoreapp3.1\MyFundi.Domain.dll
+C:\Development\MyFundiV2\PaymentCalculater\bin\Debug\netcoreapp3.1\MyFundi.Domain.pdb
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.AssemblyInfoInputs.cache
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.AssemblyInfo.cs
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.csproj.CopyComplete
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.dll
+C:\Development\MyFundiV2\PaymentCalculater\obj\Debug\netcoreapp3.1\PaymentCalculater.pdb

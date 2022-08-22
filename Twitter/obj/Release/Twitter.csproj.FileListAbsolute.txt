@@ -118,3 +118,11 @@ C:\Development\HandyManV2\Twitter\obj\Release\Twitter.csproj.CopyComplete
 C:\Development\HandyManV2\Twitter\obj\Release\Twitter.dll
 C:\Development\HandyManV2\Twitter\obj\Release\Twitter.pdb
 C:\Development\HandyManV2\Twitter\obj\Release\Twitter.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\Twitter\bin\Release\Twitter.dll
+C:\Development\MyFundiV2\Twitter\bin\Release\Twitter.pdb
+C:\Development\MyFundiV2\Twitter\bin\Release\Newtonsoft.Json.dll
+C:\Development\MyFundiV2\Twitter\obj\Release\Twitter.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\Twitter\obj\Release\Twitter.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\Twitter\obj\Release\Twitter.csproj.CopyComplete
+C:\Development\MyFundiV2\Twitter\obj\Release\Twitter.dll
+C:\Development\MyFundiV2\Twitter\obj\Release\Twitter.pdb

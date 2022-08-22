@@ -103,3 +103,10 @@ C:\Development\HandyManV2\ExcelAccessDataEngine\bin\Debug\ExcelAccessDataEngine.
 C:\Development\HandyManV2\ExcelAccessDataEngine\bin\Debug\ExcelAccessDataEngine.pdb
 C:\Development\HandyManV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.csproj.CoreCompileInputs.cache
 C:\Development\HandyManV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.csproj.CopyComplete
+C:\Development\MyFundiV2\ExcelAccessDataEngine\bin\Debug\ExcelAccessDataEngine.dll
+C:\Development\MyFundiV2\ExcelAccessDataEngine\bin\Debug\ExcelAccessDataEngine.pdb
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.csproj.CopyComplete
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.dll
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Debug\ExcelAccessDataEngine.pdb

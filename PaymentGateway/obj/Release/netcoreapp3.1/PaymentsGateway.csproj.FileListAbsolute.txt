@@ -95,3 +95,17 @@ C:\Development\HandyManV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGatew
 C:\Development\HandyManV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.csproj.CopyComplete
 C:\Development\HandyManV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.dll
 C:\Development\HandyManV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.pdb
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\PaymentsGateway.deps.json
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\PaymentsGateway.dll
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\PaymentsGateway.pdb
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\MyFundi.Domain.dll
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\PaypalFacility.dll
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\MyFundi.Domain.pdb
+C:\Development\MyFundiV2\PaymentGateway\bin\Release\netcoreapp3.1\PaypalFacility.pdb
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.AssemblyInfoInputs.cache
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.AssemblyInfo.cs
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.csproj.CopyComplete
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.dll
+C:\Development\MyFundiV2\PaymentGateway\obj\Release\netcoreapp3.1\PaymentsGateway.pdb

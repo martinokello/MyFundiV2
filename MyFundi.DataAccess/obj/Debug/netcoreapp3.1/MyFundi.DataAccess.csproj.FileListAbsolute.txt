@@ -62,3 +62,15 @@ C:\Development\HandyManV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.Dat
 C:\Development\HandyManV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.csproj.CopyComplete
 C:\Development\HandyManV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.dll
 C:\Development\HandyManV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.pdb
+C:\Development\MyFundiV2\MyFundi.DataAccess\bin\Debug\netcoreapp3.1\MyFundi.DataAccess.deps.json
+C:\Development\MyFundiV2\MyFundi.DataAccess\bin\Debug\netcoreapp3.1\MyFundi.DataAccess.dll
+C:\Development\MyFundiV2\MyFundi.DataAccess\bin\Debug\netcoreapp3.1\MyFundi.DataAccess.pdb
+C:\Development\MyFundiV2\MyFundi.DataAccess\bin\Debug\netcoreapp3.1\MyFundi.Domain.dll
+C:\Development\MyFundiV2\MyFundi.DataAccess\bin\Debug\netcoreapp3.1\MyFundi.Domain.pdb
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.AssemblyInfoInputs.cache
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.AssemblyInfo.cs
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.csproj.CopyComplete
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.dll
+C:\Development\MyFundiV2\MyFundi.DataAccess\obj\Debug\netcoreapp3.1\MyFundi.DataAccess.pdb

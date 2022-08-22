@@ -113,3 +113,11 @@ C:\Development\HandyManV2\Twitter\obj\Debug\Twitter.csproj.CopyComplete
 C:\Development\HandyManV2\Twitter\obj\Debug\Twitter.dll
 C:\Development\HandyManV2\Twitter\obj\Debug\Twitter.pdb
 C:\Development\HandyManV2\Twitter\bin\Debug\Newtonsoft.Json.dll
+C:\Development\MyFundiV2\Twitter\bin\Debug\Twitter.dll
+C:\Development\MyFundiV2\Twitter\bin\Debug\Twitter.pdb
+C:\Development\MyFundiV2\Twitter\bin\Debug\Newtonsoft.Json.dll
+C:\Development\MyFundiV2\Twitter\obj\Debug\Twitter.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\Twitter\obj\Debug\Twitter.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\Twitter\obj\Debug\Twitter.csproj.CopyComplete
+C:\Development\MyFundiV2\Twitter\obj\Debug\Twitter.dll
+C:\Development\MyFundiV2\Twitter\obj\Debug\Twitter.pdb

@@ -66,3 +66,9 @@ C:\Development\HandyManV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.csproj.A
 C:\Development\HandyManV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.csproj.CoreCompileInputs.cache
 C:\Development\HandyManV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.dll
 C:\Development\HandyManV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.pdb
+C:\Development\MyFundiV2\BLGWeather.Domain\bin\Debug\BLGWeather.Domain.dll
+C:\Development\MyFundiV2\BLGWeather.Domain\bin\Debug\BLGWeather.Domain.pdb
+C:\Development\MyFundiV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.dll
+C:\Development\MyFundiV2\BLGWeather.Domain\obj\Debug\BLGWeather.Domain.pdb

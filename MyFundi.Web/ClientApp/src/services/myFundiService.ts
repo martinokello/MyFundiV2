@@ -11,7 +11,8 @@ declare const google: any;
 @Injectable()
 export class MyFundiService {
 
-  private baseServerUrl: string = /*"https://localhost:44339";*/ "https://myfundi.martinlayooinc.com";
+  private baseServerUrl: string = /*"https://localhost:44393";*/ "https://myfundiv2.martinlayooinc.com";
+
   public constructor(private httpClient: HttpClient) {
   }
   public static isLoginPage: boolean = false;

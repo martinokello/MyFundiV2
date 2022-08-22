@@ -2,18 +2,24 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "https://myfundiv2.martinlayooinc.com",
+      "sslPort": 0
+    },
     "iisExpress": {
-      "applicationUrl": "http://localhost:62588",
-      "sslPort": 44394
+      "applicationUrl": "https://localhost:44393/",
+      "sslPort": 44393
     }
   },
   "profiles": {
     "IIS Express": {
-      "commandName": "IISExpress",
+      "commandName": "IIS",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "ancmHostingModel": "InProcess",
+      "use64Bit": true
     },
     "MyFundi.Web": {
       "commandName": "IISExpress",
@@ -21,6 +27,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
+      "ancmHostingModel": "InProcess",
+      "use64Bit": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }

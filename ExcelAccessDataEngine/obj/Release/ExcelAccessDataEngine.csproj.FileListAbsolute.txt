@@ -118,3 +118,10 @@ C:\Development\HandyManV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngin
 C:\Development\HandyManV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.dll
 C:\Development\HandyManV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.pdb
 C:\Development\HandyManV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\ExcelAccessDataEngine\bin\Release\ExcelAccessDataEngine.dll
+C:\Development\MyFundiV2\ExcelAccessDataEngine\bin\Release\ExcelAccessDataEngine.pdb
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.csproj.AssemblyReference.cache
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.csproj.CoreCompileInputs.cache
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.csproj.CopyComplete
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.dll
+C:\Development\MyFundiV2\ExcelAccessDataEngine\obj\Release\ExcelAccessDataEngine.pdb

@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {}
+    "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
+    "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
+        "projectUniqueName": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
         "projectName": "MyFundi.Domain",
-        "projectPath": "C:\\Development\\HandyManV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
-        "packagesPath": "C:\\Users\\Jenkins\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\HandyManV2\\MyFundi.Domain\\obj\\",
+        "projectPath": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\MyFundi.Domain.csproj",
+        "packagesPath": "C:\\Users\\martinokello\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\MyFundiV2\\MyFundi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\martinokello\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -28,7 +26,6 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +64,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.107\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

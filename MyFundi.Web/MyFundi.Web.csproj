@@ -60,14 +60,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="AesCryptoSystemExtra">
-      <HintPath>extLibs\AesCryptoSystemExtra.dll</HintPath>
+    <Reference Include="EpsilonCryptoSystemEngine">
+      <HintPath>extLibs\EpsilonCryptoSystemEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="PasswordEncryptorEngine">
+      <HintPath>..\..\..\SiteDeploys\EpsilonCommuniquePortalV2\bin\PasswordEncryptorEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="ClientApp\dist\" />
-    <Folder Include="extLibs\" />
     <Folder Include="ClientProfile\" />
   </ItemGroup>
 

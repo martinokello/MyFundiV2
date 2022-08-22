@@ -15,7 +15,7 @@ using MyFundi.UnitOfWork.Interfaces;
 using MyFundi.IdentityServices;
 using System.Reflection;
 using Newtonsoft.Json;
-using AesCryptoSystemExtra.AESCryptoSystem.ExternalCryptoUnit;
+using EpsilonCryptoSystemEngine;
 
 namespace MyFundi.IdentityServices
 {
@@ -41,13 +41,12 @@ namespace MyFundi.IdentityServices
         IDictionary<string, object> GetUserClaimsFromToken(string authToken);
         Task<UserInteractionResults> RemoveFromRolesAsync(User user, string[] roles);
     }
-
     public class UserService : IUserService
     {
         private MyFundiUnitOfWork _unitOfWork;
-        private AesExternalProcedures _passwordEncryptor;
+        private PasswordEncryptor _passwordEncryptor;
         private IRoleService _roleService;
-        public UserService(AppSettingsConfigurations appSettings, IRoleService roleService, AesExternalProcedures passwordEncryptor, MyFundiUnitOfWork unitOfWork)
+        public UserService(AppSettingsConfigurations appSettings, IRoleService roleService, PasswordEncryptor passwordEncryptor, MyFundiUnitOfWork unitOfWork)
         {
             _appSettings = appSettings;
             _roleService = roleService;
@@ -65,7 +64,7 @@ namespace MyFundi.IdentityServices
         {
             try
             {
-                var passwordEncrypted = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(userPWD, _passwordEncryptor.KeyBytes));
+                var passwordEncrypted = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(userPWD, _passwordEncryptor.masterStore.Key));
                 user.Password = passwordEncrypted;
 
                 _unitOfWork._userRepository.Insert(user);
@@ -152,7 +151,12 @@ namespace MyFundi.IdentityServices
 
         public SecurityTokenDescriptor ReadToken(string authToken)
         {
-            var securityTokenDescription  = JsonConvert.DeserializeObject<SecurityTokenDescriptor>(Encoding.UTF8.GetString(_passwordEncryptor.DecryptPassword(authToken, _passwordEncryptor.KeyBytes)));
+            var aesDecryptor = new EpsilonCryptoSystemEngine.Aes();
+            int keySize = _passwordEncryptor.masterStore.KeyLength;
+            aesDecryptor.GenerateKey((keySize == 128 ? Aes.KeySize.Bits128 : keySize == 192 ? Aes.KeySize.Bits192 : Aes.KeySize.Bits256), _passwordEncryptor.masterStore.Key);
+
+            var authCode = Encoding.UTF8.GetString(aesDecryptor.Decrypt(authToken));
+            var securityTokenDescription = JsonConvert.DeserializeObject<SecurityTokenDescriptor>(authCode);
 
             return securityTokenDescription;
         }
@@ -192,12 +196,12 @@ namespace MyFundi.IdentityServices
             tokenDescriptor.Claims.Add("lastname", user.LastName);
             //var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenDescString = JsonConvert.SerializeObject(tokenDescriptor);
-            var token = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(tokenDescString, _passwordEncryptor.KeyBytes));
+            var token = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(tokenDescString, _passwordEncryptor.masterStore.Key));
             return await Task.FromResult<string>(token);
         }
         public async Task<UserInteractionResults> PasswordSignInAsync(User user, string password, bool isPersistent, bool lockoutOnFailure)
         {
-            var encryptedPassword = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(password, _passwordEncryptor.KeyBytes));
+            var encryptedPassword = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(password, _passwordEncryptor.masterStore.Key));
 
             var tmpUser =_unitOfWork._userRepository.GetAll().FirstOrDefault(q => q.Username.ToLower().Equals(user.Username.ToLower()) && q.Password.Equals(encryptedPassword));
             if (tmpUser != null) {
@@ -210,7 +214,7 @@ namespace MyFundi.IdentityServices
         }
         public async Task<UserInteractionResults> UpdateUserAsync(User user)
         {
-            user.Password = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(user.Password, _passwordEncryptor.KeyBytes));
+            user.Password = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(user.Password, _passwordEncryptor.masterStore.Key));
 
             var hasUpdated = _unitOfWork._userRepository.Update(user);
             _unitOfWork.SaveChanges();
@@ -255,7 +259,7 @@ namespace MyFundi.IdentityServices
                 if (emailClaim.Value.ToLower().Equals(user.Username.ToLower()))
                 {
                     //Reset User Password:
-                    var encryptedPassword = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(password, _passwordEncryptor.KeyBytes));
+                    var encryptedPassword = Convert.ToBase64String(_passwordEncryptor.EncryptPassword(password, _passwordEncryptor.masterStore.Key));
                     var userPasswordChange = _unitOfWork._userRepository.GetAll().FirstOrDefault(q => q.Username.ToLower().Equals(user.Username));
                     userPasswordChange.Password = encryptedPassword;
                     _unitOfWork.SaveChanges();

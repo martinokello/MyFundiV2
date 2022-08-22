@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AesCryptoSystemExtra.AESCryptoSystem.ExternalCryptoUnit;
+using EpsilonCryptoSystemEngine; 
 
 namespace MyFundi.IdentityServices
 {
@@ -23,8 +23,8 @@ namespace MyFundi.IdentityServices
     public class RoleService:IRoleService
     {
         private MyFundiUnitOfWork _unitOfWork;
-        private AesExternalProcedures _passwordEncryptor;
-        public RoleService(AesExternalProcedures passwordEncryptor, MyFundiUnitOfWork unitOfWork)
+        private PasswordEncryptor _passwordEncryptor;
+        public RoleService(PasswordEncryptor passwordEncryptor, MyFundiUnitOfWork unitOfWork)
         {
             _passwordEncryptor = passwordEncryptor;
             _unitOfWork = unitOfWork;
